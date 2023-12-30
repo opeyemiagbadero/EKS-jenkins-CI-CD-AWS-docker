@@ -6,7 +6,13 @@ The prerequisites of the project include the installation of Jenkins (from a doc
 Demo executed - Complete CI/CD Pipeline with DockerHub:
 Created Deployment and Service for App deployment
 
-Adjust Jenkinsﬁle to set environment variables with envsubst
+![1  deployment yaml](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/6405ab30-1317-4658-9a15-d886c03db832)
+
+
+![2  service yaml](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/b1907773-ada4-435f-9198-9b51a512ab5d)
+
+Adjust Jenkinsﬁle as used in the EKS-cluster-deployment-using-Jenkins repo to set environment variables with envsubst
+
 
 Installed “gettext-base” tool inside Jenkins Container on the AWS Server to have envsubst available. 
 
