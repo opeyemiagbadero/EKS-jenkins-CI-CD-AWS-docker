@@ -1,1 +1,1 @@
-## EKS-jenkins-CI-CDAWS-docker
+## EKS-jenkins-CI-CD-AWS-docker
