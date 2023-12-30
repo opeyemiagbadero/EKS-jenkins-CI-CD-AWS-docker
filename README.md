@@ -1,7 +1,6 @@
 ## EKS-jenkins-CI-CD-AWS-docker
-This is an overview of how to 
-Complete CI/CD Pipeline with DockerHub
-Watched video
+This is an overview of how to deploy into a kubernetes cluster from a Jenkins CI/CD through a private DockerHub
+
 Demo executed - Complete CI/CD Pipeline with DockerHub:
 Created Deployment and Service for App deployment
 Adjust Jenkinsﬁle to set environment variables with envsubst
