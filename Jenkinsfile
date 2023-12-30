@@ -71,10 +71,10 @@ pipeline {
                         sh 'git status'
                         sh 'git branch'
                         
-                        sh 'git remote set-url origin git@github.com:opeyemiagbadero/java-maven-app.git'
+                        sh 'git remote set-url origin git@github.com:opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker.git'
                         sh 'git add .'
                         sh 'git commit -m "ci:version bump-confirm"'
-                        sh 'git push origin HEAD:versioning-jenkins'
+                        sh 'git push origin HEAD:main'
                         
                     }
                 }
