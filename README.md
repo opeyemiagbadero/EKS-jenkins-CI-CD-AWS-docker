@@ -5,9 +5,19 @@ The prerequisites of the project include the installation of Jenkins (from a doc
 
 Demo executed - Complete CI/CD Pipeline with DockerHub:
 Created Deployment and Service for App deployment
+
 Adjust Jenkinsﬁle to set environment variables with envsubst
-Installed “gettext-base” tool inside Jenkins Container on DigitalOcean Server
-to have envsubst available
-Created Secret for DockerHub Registry in EKS cluster (connect to EKS
-cluster if not already) and added reference to Deployment ﬁle
+
+Installed “gettext-base” tool inside Jenkins Container on the AWS Server to have envsubst available. 
+
+![3  create a envsbust command for the place holders in the deployment and service files](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/fd3398f2-5e86-42ad-a128-10910a7f2304)
+
+Created Secret for DockerHub Registry in EKS cluster and added reference to Deployment ﬁle
+
+![4  Create Secret for Dockerhub Credentials](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/8b602d08-26a8-42ad-8373-ab2917293cac)
+
+
+![5  Update Kubernetes Deployment in Kubernetes Deployment yaml file, reference the created secret in the imagePullSecrets section](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/ce8d1745-609e-4ed3-aef8-4fab1db7c996)
+
 Executed Jenkins Pipeline
+![7  pipeline screenshot](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/8a2d10c1-586a-4121-b990-3c0120a60d6f)
