@@ -11,7 +11,9 @@ Created Deployment and Service for App deployment
 
 ![2  service yaml](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/b1907773-ada4-435f-9198-9b51a512ab5d)
 
-Adjust Jenkinsﬁle as used in the EKS-cluster-deployment-using-Jenkins repo to set environment variables with envsubst
+Adjusted Jenkinsﬁle as used in the EKS-cluster-deployment-using-Jenkins repo to set environment variables with envsubst
+
+![editted the Jenkinsfile to reflect the envsubst and the new environmental variables](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/ca59e632-87a8-4902-9afc-15bf2d79d597)
 
 
 Installed “gettext-base” tool inside Jenkins Container on the AWS Server to have envsubst available. 
