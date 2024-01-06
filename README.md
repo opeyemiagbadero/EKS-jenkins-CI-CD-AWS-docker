@@ -3,7 +3,7 @@ This is an overview of how to deploy into a kubernetes cluster from a Jenkins CI
 
 The prerequisites of the project include the installation of Jenkins (from a docker image) on a container, setup of the jenkins server, installation of docker, AWS cli, kubectl, AWS Iam authenticator and AWS credentials inside the jenkins container
 
-Created Deployment and Service for App deployment
+Created Deployment and Service yaml files for the app deployment
 
 ![1  deployment yaml](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/6405ab30-1317-4658-9a15-d886c03db832)
 
