@@ -21,6 +21,7 @@ Installed “gettext-base” tool inside Jenkins Container on the AWS Server to 
 
 Created Secret for DockerHub Registry in EKS cluster and added reference to Deployment ﬁle
 
+![4  Create Secret for Dockerhub Credentials](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/e34048fe-b508-4eeb-8852-8003c392e8c8)
 
 
 ![5  Update Kubernetes Deployment in Kubernetes Deployment yaml file, reference the created secret in the imagePullSecrets section](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/ce8d1745-609e-4ed3-aef8-4fab1db7c996)
