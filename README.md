@@ -1,5 +1,5 @@
 ## EKS-jenkins-CI-CD-AWS-docker
-This is an overview of how to deploy into a kubernetes cluster from a Jenkins CI/CD through a private DockerHub, and a sequel to the repository # EKS-cluster-deployment-using-Jenkins 
+This is an overview of how to deploy into a kubernetes cluster from a Jenkins CI/CD through a private DockerHub, and a sequel to the repository  EKS-cluster-deployment-using-Jenkins 
 
 The prerequisites of the project include the installation of Jenkins (from a docker image) on a container, setup of the jenkins server, docker, AWS cli, kubectl, AWS Iam authenticator and AWS credentials using jenkins.
 
