@@ -19,7 +19,7 @@ Installed “gettext-base” tool inside Jenkins Container on the AWS Server to 
 
 ![3  create a envsbust command for the place holders in the deployment and service files](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/fd3398f2-5e86-42ad-a128-10910a7f2304)
 
-Created Secret for DockerHub Registry in EKS cluster and added reference to Deployment ﬁle
+Created Secret for DockerHub Registry in EKS cluster and referenced it in the deployment yaml file
 
 ![4  Create Secret for Dockerhub Credentials](https://github.com/opeyemiagbadero/EKS-jenkins-CI-CD-AWS-docker/assets/79456052/e34048fe-b508-4eeb-8852-8003c392e8c8)
 
